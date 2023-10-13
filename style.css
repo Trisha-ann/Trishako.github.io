@@ -13,6 +13,9 @@
     width: 50%;
     font-size: 14px;
   }
+  .custom-img {
+    height: 200px;
+  }
 }
 #contact {
   width: 100%;
