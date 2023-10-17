@@ -1,152 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trisha Ann Pelonis</title>
-    <link
-      rel="stylesheet"
-      href="assets/bootstrap-5.3.2-dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="shortcut icon" href="img/shortcut_icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
     <!--navbar-->
-    <nav
-      class="navbar navbar-expand-lg bg-dark container-fluid fixed-top navbar-dark"
-    >
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Patricia</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#certificates">Certificates</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--end of navbar-->
-    <section id="home" class="container-fluid pb-5">
-      <div class="container text-center py-5">
-        <div class="row align-items-center mt-5">
-          <div class="col col-md-3 col sm-5">
-            <p>Hello!! I'm</p>
-            <h1>Trisha Ann Pelonis</h1>
-            <h2 class="text-muted">Aspiring Full Stack Developer</h2>
-            <button type="button" class="btn btn-secondary">
-              <a href="Pelonis-CV (1).pdf" class="nav-link" target="_blank"
-                >View CV</a
-              >
-            </button>
-          </div>
-          <div class="col col-md-6 mt-5">
-            <img
-              src="gwapako-fotor-20231009143939.png"
-              alt="circle"
-              class="img-fluid"
-            />
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="" width="60">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#educ_background">Educational Attainment</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#certificates">Certificates</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="about" class="container-fluid">
-      <div class="container pt-5">
-        <p class="pt-5 text-center fw-bold">Hi! Read it if you're interested</p>
-        <div class="row align-items-center mt-4">
-          <div class="col">
-            <p class="w-40 mx-auto mt-4 custom-text">
-              I am 21 years old. Taking the Bachelor of Science in Information
-              Technology at Caraga State University. Actually, IT course is a no
-              for me because I'm not really good when it comes to Technology,
-              but as time goes by I'm starting to like this course not just
-              because it's wonderful but it's challenging. My journey in this
-              course was never easy, but I continue because I have dreams I
-              wanna reach. It is so hard knowing that I'm a slow learner, but
-              it's fine as long as I'm alive I'm alright.
-            </p>
+      </nav>
+      <!--end of navbar-->
+      <!--home section-->
+      <section class="container" id="home">
+        <div class="row align-items-center text-center custom-padding">
+          <div class="col-md-6 text-center text-md-start">
+            <h1 class="fw-bold">Hi, I am</h1>
+            <h1 class="fw-bold text-primary">Trisha Ann Pelonis</h1>
+            <h1 class="fw-bold">Web Designer</h1>
+            <button type="button" class="btn btn-primary">View CV</button>
+            <a href="#about">
+            <button type="button" class="btn btn-outline-primary ms-3">About</button>
+            </a>
+            
           </div>
-          <div class="col">
-            <img src="pitik.jpg" class="img-fluid m-3 custom-img" />
-          </div>
+            <div class="col-md-6">
+                <img src="img/personal.jpg" alt="" class="custom-img img-fluid">
+            </div>
         </div>
-      </div>
-    </section>
-
-    <section
-      id="certificates"
-      class="container-fluid pt-5"
-      style="height: 100vh"
-    >
-      <div class="container py-3">
-        <h1 class="pt-2 text-center">My certificates</h1>
-        <div class="row justify-content-center mt-4 text-center">
-          <div class="container text-center">
-            <div class="row align-items-center">
-              <div class="col-lg pb-4">
-                <img
-                  class="img-fluid m-3 custom-img"
-                  src="HTML.CERT.jpg"
-                  height="300"
-                  width="300"
-                />
+      </section>
+      <!--end of home section-->
+      <!--about section-->
+      <section id="about" class="container pt-2">
+        <h1 class="text-primary fw-bold text-center section-padding">About</h1>
+        <div class="row align-items-center text-center mt-3">
+          <div class="col-md-6">
+            <img src="img/about_pic.jpg" alt="" class="custom-about-img img-fluid">
+          </div>
+          <div class="col-md-6 text-md-start text-start">
+            <p>I am 21 years old. Taking the <span class="text-primary">Bachelor of Science in Information Technology</span> at Caraga State University. Actually, IT course is a no for me because I'm not really good when it comes to Technology, but as time goes by I'm starting to like this course not just because it's wonderful but it's challenging. My journey in this course was never easy, but I continue because I have dreams I wanna reach. It is so hard knowing that I'm a slow learner, but it's fine as long as I'm alive I'm alright.</p>
+            <div class="row align-items-center pb-3">
+              <div class="col-5">
+                <hr class="text-primary">
               </div>
-              <div class="col-lg pb-4">
-                <img
-                  class="img-fluid rounded m-3 custom-img"
-                  src="CSS.CERT.jpg"
-                  height="300"
-                  width="300"
-                />
+              <div class="col-2">
+                <p class="text-center mt-3">💙</p>
+              </div>
+              <div class="col-5">
+                <hr class="text-primary">
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <div id="contact" class="container-fluid pt-4">
-      <div class="container py-5">
-        <div class="row align-items-center mt-5">
-          <h1 class="pt-2 text-center">Hi There..!</h1>
-          <p class="pt-2 text-center">
-            Contact me here if you have other concerns
-          </p>
-          <div class="row justify-content-center mt-4 text-center">
-            <i class="fa fa-facebook-official fs-3" aria-hidden="true ">
-              Facebook
-            </i>
-            <i class="fa fa-instagram fs-3" aria-hidden="true"> Instagram </i>
-            <i class="fa fa-envelope fs-3" aria-hidden="true"> Gmail </i>
+      </section>
+      <!--end of about section-->
+      <!--educational background section-->
+      <section id="educ_background"  class="container-fluid bg-secondary-subtle">
+      <div class="container">
+        <h1 class="text-primary fw-bold text-center section-padding">Educational Attainment</h1>
+        <div class="row justify-content-center pt-md-5 pt-sm-3">
+          <!--elementary-->
+          <div class="card m-4 shadow" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center text-primary fw-bold">Elementary</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary text-center">(2014 - 2015)</h6>
+              <p class="card-text pt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <!--end of elementary-->
+          <!--junior highschool-->
+          <div class="card m-4 shadow" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title text-primary text-center fw-bold">Junior Highschool</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary text-center">(2018 - 2019)</h6>
+              <p class="card-text pt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <!--end of junior highschool-->
+          <!--senior highschool-->
+          <div class="card m-4 shadow" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title text-primary text-center fw-bold">Senior Highschool</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary text-center">(2020 - 2021)</h6>
+              <p class="card-text pt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <!--end of senior highschool-->
+        </div>
+        </div>
+      </section>
+      <!--end of educational background section-->
+      <!--certificates section-->
+      <section id="certificates" class="container">
+        <h1 class="text-primary fw-bold text-center section-padding">Certificates</h1>
+        <!--first row-->
+        <div class="row mt-3">
+          <div class="col-12">
+            <hr>
+            <h1 class="text-start text-primary">Introduction to HTML</h1>
+            <span class="text-body-secondary">September 01, 2023</span>
+            <p class="text-start mt-5">Completed the course "Introduction to HTML" and recieved a certificate from Solo Learn</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">View</a>
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl ">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel1">Introduction to HTML Certificate</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <img src="img/html_certificate.jpg" alt="" class="w-100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <hr>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <script src="assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+        <!--second row-->
+        <div class="row pb-3">
+          <div class="col-12">
+            <h1 class="text-start text-primary">Introduction to CSS</h1>
+            <span class="text-body-secondary">September 01, 2023</span>
+            <p class="text-start mt-5">Completed the course "Introduction to CSS" and recieved a certificate from Solo Learn</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">View</a>
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl ">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel2">Introduction to CSS Certificate</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <img src="img/css_certificate.jpg" alt="" class="w-100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end of certificates section-->
+      <!--contact section-->
+      <section id="contact" class="container-fluid bg-primary pb-1">
+        <div class="container">
+          <h1 class="text-center text-white pt-4 fw-bold">Contact</h1>
+          <h2 class="text-start text-white pt-3">Get in Touch</h2>
+          <div class="row align-items-center text-center pb-1">
+            <div class="col-md-6 text-start">
+              <a href="https://www.facebook.com/trishawafa143" class="text-decoration-none" target="_blank">
+                <i class="bi bi-facebook text-white fs-1"></i>
+                <span class="text-white ms-3">Trisha Ann Barneso Pelonis</span>
+              </a>
+              <br>
+              <a href="mailto: pelonistrishaann@gmail.com" class="text-decoration-none" target="_blank">
+                <i class="bi bi-envelope-at-fill text-white fs-1"></i>
+                <span class="text-white ms-3">Trisha Ann Pelonis</span>
+              </a>
+              <br>
+              <a href="https://www.tiktok.com/@hirayagale?_t=8gYhgNa08dM&_r=1" class="text-decoration-none" target="_blank">
+                <i class="bi bi-tiktok text-white fs-1"></i>
+                <span class="text-white ms-3">Trishaaaa</span>
+              </a>
+              <br>
+              <a href="tel:09635572732" class="text-decoration-none" target="_blank">
+                <i class="bi bi-telephone text-white fs-1"></i>
+                <span class="text-white ms-3">09635572732</span>
+              </a>
+              
+            </div>
+              <div class="col-md-6">
+                  <img src="img/contact_pic.jpg" alt="" class="custom-contact-img rounded pt-2">
+              </div>
+          </div>
+          <hr class="text-white">
+          <p class="text-white">Copyright 2023</p>
+          </div>
+        </div>
+      </section>
+      <!--end of contact section-->
+    
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Add smooth scrolling to anchor links
+        document.querySelectorAll("a.nav-link").forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+  
+            const targetId = this.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetId);
+  
+            if (targetId === "home") {
+              // Scroll back to the top for the "Home" link
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+              });
+            } else {
+              // Scroll to the other sections
+              window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: "smooth",
+              });
+            }
+  
+            // Close the mobile navbar if it's open
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            if (navbarToggler.classList.contains("collapsed") === false) {
+              navbarToggler.click();
+            }
+          });
+        });
+      </script>
+</body>
 </html>
